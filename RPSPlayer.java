@@ -1,11 +1,6 @@
-
-/**
- * Write a description of class RPSPlayer here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class RPSPlayer implements Player
+import java.util.Random;
+import java.util.Scanner;
+class RPSPlayer implements Player
 {
     
 
@@ -20,9 +15,30 @@ public class RPSPlayer implements Player
      * If cpu = false, ask user for input
      */
     public String pick(boolean cpu) {
+        Random scan= new Random();
+        Scanner rand = new Scanner(System.in);
+        String output = "";
+        //1 is rock
+        //2 is paper
+        //3 is scissors
+        if(cpu = true){
+            output = (interpretNumber(rand.nextInt((4-1) + 1)));
+        }
         return null;
     }
     
+    public String interpretNumber(int n){
+        if(n == 1){
+            return "rock";
+        }
+        if(n == 2){
+            return "paper";
+        }
+    
+        else{
+            return "scissors";
+        }
+    }
     
     public void setName(String n) {
         

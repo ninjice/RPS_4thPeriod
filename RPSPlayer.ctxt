@@ -1,11 +1,12 @@
 #BlueJ class context
 comment0.target=RPSPlayer
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ RPSPlayer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=RPSPlayer()
 comment2.params=cpu
 comment2.target=java.lang.String\ pick(boolean)
 comment2.text=\r\n\ If\ cpu\ \=\ true,\ randomly\ generate\r\n\ If\ cpu\ \=\ false,\ ask\ user\ for\ input\r\n
 comment3.params=n
-comment3.target=void\ setName(java.lang.String)
-numComments=4
+comment3.target=java.lang.String\ interpretNumber(int)
+comment4.params=n
+comment4.target=void\ setName(java.lang.String)
+numComments=5
