@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=RPSGame
+comment1.params=p1\ p2
+comment1.target=int\ win(Player,\ Player)
+comment1.text=\r\n\ 1\ is\ p1\ win\r\n\ -1\ is\ p2\ win\r\n\ 0\ is\ a\ tie\r\n
+comment2.params=
+comment2.target=boolean\ end()
+comment3.params=p
+comment3.target=void\ updateScore(Player)
+comment4.params=
+comment4.target=int\ howManyPlayers()
+numComments=5

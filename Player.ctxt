@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=cpu
+comment1.target=java.lang.String\ pick(boolean)
+comment1.text=\r\n\ If\ cpu\ \=\ true,\ randomly\ generate\r\n\ If\ cpu\ \=\ false,\ ask\ user\ for\ input\r\n
+comment2.params=n
+comment2.target=void\ setName(java.lang.String)
+numComments=3
